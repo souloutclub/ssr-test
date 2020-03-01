@@ -2,19 +2,19 @@
 NODE_ID = 0
 
 # hour,set 0 to disable
-SPEEDTEST = 6
+SPEEDTEST = 0
 CLOUDSAFE = 1
 ANTISSATTACK = 0
 AUTOEXEC = 0
 
-MU_SUFFIX = 'zhaoj.in'
+MU_SUFFIX = 'microsoft.com'
 MU_REGEX = '%5m%id.%suffix'
 
 SERVER_PUB_ADDR = '127.0.0.1'  # mujson_mgr need this to generate ssr link
 API_INTERFACE = 'modwebapi'  # glzjinmod, modwebapi
 
-WEBAPI_URL = 'https://zhaoj.in'
-WEBAPI_TOKEN = 'glzjin'
+WEBAPI_URL = 'https://api.soulout.club'
+WEBAPI_TOKEN = 'soulout.club'
 
 # mudb
 MUDB_FILE = 'mudb.json'
@@ -43,7 +43,7 @@ MANAGE_PASS = 'ss233333333'
 # if you want manage in other server you should set this value to global ip
 MANAGE_BIND_IP = '127.0.0.1'
 # make sure this port is idle
-MANAGE_PORT = 23333
+MANAGE_PORT = 5000
 
 # edit this file and server will auto reload
 
